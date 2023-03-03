@@ -95,7 +95,7 @@ analytics:
 # Site Author
 author:
   name             : "Junghwan Lee"
-  avatar           : "/assets/image/thumbnail/profile.jpg" # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
+  avatar           : "/assets/image/thumbnail/profile.jpeg" # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
   bio              : "Ph.D. Student in KENTECH"
   location         : "Naju, South Korea"
   # email            : "sangillee724@gmail.com"
