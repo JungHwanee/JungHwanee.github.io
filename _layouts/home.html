@@ -8,13 +8,13 @@ layout: archive
 <ul>
   <li>2019.02, B.S., Mechanical and Nuclear Engineering, Ulsan National Institute of Science Technology (UNIST), Ulsan, Korea</li>
   <li>2022.07 ~ present, M.S./Ph.D. Student., KENTECH </li>
-<ul>
+</ul>
 
 <h3><h3> Representative Publications </h3>
 <hr>
 <!-- <p style="color:gray;">* These authors contributed equally</p> -->
 <ul>
-  <li> Working...
+  <li> Junghwan Lee*, juhyun Song, "<Progressing.... submit to ISE 2023>"
 </ul>
 
 <h3><h3> Awards and Achievement </h3>
@@ -42,24 +42,6 @@ layout: archive
 
 
 {{ content }}
-
-<h3 class="archive__subtitle">{{ site.data.ui-text[site.locale].recent_posts | default: "Recent Posts" }}</h3>
-
-{% if paginator %}
-  {% assign posts = paginator.posts %}
-{% else %}
-  {% assign posts = site.posts %}
-{% endif %}
-
-{% assign entries_layout = page.entries_layout | default: 'list' %}
-<div class="entries-{{ entries_layout }}" id="recent-posts">
-  {% for post in posts limit:3 %}
-    {% include archive-single.html type=entries_layout %}
-  {% endfor %}
-</div>
-
-<!-- {% include paginator.html %} -->
-
 
 <h3 class="archive__subtitle">{{ site.data.ui-text[site.locale].recent_posts | default: "Recent Posts" }}</h3>
 
