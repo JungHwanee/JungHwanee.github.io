@@ -1,8 +1,65 @@
 ---
 layout: archive
 ---
+<p> In the mid-summer of 2022, I joined <a href=”http://sites.google.com/view/battery-software/home” target=”_blank>BSL</a> (Battery Software Lab) at Korea Institute of Energy Technology (KENTECH) to conduct research in battery modeling. I collaborated with <a href="https://scholar.google.co.kr/citations?user=S6pQ6hQAAAAJ&hl=en" target="_blank">Prof. Juhyun Song </a>.
+<p> My research interests in Batteries focused on the battery modeling, particularly on Battery Material/Physics Modeling included harsh environments (e.g., fast charging), and Phase Transformation/Transition for Li-ion nano particle, as well as degradation model.
+<h3><h3> Biographical Information </h3>
+<hr>
+<ul>
+  <li>2019.02, B.S., Mechanical and Nuclear Engineering, Ulsan National Institute of Science Technology (UNIST), Ulsan, Korea</li>
+  <li>2022.07 ~ present, M.S./Ph.D. Student., KENTECH </li>
+<ul>
+
+<h3><h3> Representative Publications </h3>
+<hr>
+<!-- <p style="color:gray;">* These authors contributed equally</p> -->
+<ul>
+  <li> Working...
+</ul>
+
+<h3><h3> Awards and Achievement </h3>
+<hr>
+<ul>
+  <li>[Scholarship] - </li>
+  <li>[Awards] -  </li>
+</ul>
+
+<h3><h3> Professional Experience </h3>
+<hr>
+<ul>
+  <li>[Researcher] KDM R&D Center, Machine Learning Algorithm 2021.01 - 2022.06
+  
+</ul>
+
+<h3><h3> Academic Services </h3>
+<hr>
+<ul>
+  <li> 
+</ul>
+
+
+{% include feature_row id="feature_row_pub" caption="Featured Publications" %}
+
 
 {{ content }}
+
+<h3 class="archive__subtitle">{{ site.data.ui-text[site.locale].recent_posts | default: "Recent Posts" }}</h3>
+
+{% if paginator %}
+  {% assign posts = paginator.posts %}
+{% else %}
+  {% assign posts = site.posts %}
+{% endif %}
+
+{% assign entries_layout = page.entries_layout | default: 'list' %}
+<div class="entries-{{ entries_layout }}" id="recent-posts">
+  {% for post in posts limit:3 %}
+    {% include archive-single.html type=entries_layout %}
+  {% endfor %}
+</div>
+
+<!-- {% include paginator.html %} -->
+
 
 <h3 class="archive__subtitle">{{ site.data.ui-text[site.locale].recent_posts | default: "Recent Posts" }}</h3>
 
