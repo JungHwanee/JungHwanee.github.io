@@ -96,9 +96,9 @@ analytics:
 author:
   name             : "Junghwan Lee"
   avatar           : "/assets/image/thumbnail/profile.jpeg" # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "Ph.D. Student in KENTECH"
+  bio              : "MS/Ph.D. Student in KENTECH"
   location         : "Naju, South Korea"
-  # email            : "sangillee724@gmail.com"
+  # email            : "blendel2651@gmail.com"
   links:
     - label: "Curriculum Vitae"
       icon: "fas fa-fw fa-file-pdf"
@@ -108,7 +108,7 @@ author:
       url: "mailto:leejh@kentech.ac.kr"
     - label: "Website"
       icon: "fas fa-fw fa-link"
-      # url: "https://your-website.com"
+      url: "https://sites.google.com/view/battery-software/people/team"
     - label: "Twitter"
       icon: "fab fa-fw fa-twitter-square"
       # url: "https://twitter.com/"
