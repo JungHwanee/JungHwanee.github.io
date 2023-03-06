@@ -123,7 +123,7 @@ author:
       # url: "https://instagram.com/"
     - label: "Google Scholar"
       icon: "fab fa-fw fa-google"
-      url: #"https://scholar.google.com/citations?user=Z34jsGIAAAAJ"
+      url: "https://scholar.google.co.kr/citations?user=spYwnjwAAAAJ&hl=ko#"
     - label: "Youtube"
       icon: "fab fa-fw fa-youtube"
       url: #"https://www.youtube.com/user/aeternuslsi"
